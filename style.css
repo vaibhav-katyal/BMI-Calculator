@@ -402,14 +402,17 @@ body {
     margin-top: 0px;
 }
 
-.steps .calc_but{
+.parent a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 70%;
+    width: 59%;
     white-space: normal;
     margin-bottom: 15px;
     margin-top: -4px;
+    text-decoration: none;
+    margin: -4px auto 15px 5.3vw;
+
 }
 
 .systemofunits{
@@ -463,5 +466,7 @@ body {
     font-size: 18px;
     margin: 11px;
 }
+
+
 
     
