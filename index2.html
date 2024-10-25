@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+    </style>
+    <link rel="shortcut icon" href="images-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+    </header>
+
+    <div class="left">
+        <a href="index2.html"><img src="images-removebg-preview.png" alt="logo">
+            <div>FitGenius
+            </div>
+        </a>
+    </div>
+    <div class="center">
+        <ul class="navbar">
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li><a href="index2.html" class="active">BMI Calculator</a></li>
+            <li><a href="bmiinfo.html">BMI Info</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <img src="account_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="user">
+        <button class="btn" id="sign">Sign Up</button>
+    </div>
+    </header>
+
+    <div class="heading">
+        Body Mass Index Calculator
+    </div>
+
+    <div class="calculate">
+        <form class="form_c" action="#">
+            <div class="gen_sel">
+                <label for="gender" id="lab_gen">GENDER</label><br>
+                <input type="radio" name="GEN" id="male">
+                <label for="male" class="resize">Male</label>
+                <input type="radio" name="GEN" id="female">
+                <label for="female" class="resize" id="re_fe">Female</label>
+            </div>
+
+            <div class="height">
+                <label for="height" id="heig_adj">HEIGHT</label><br>
+                <input class="inp_heigh" type="number" placeholder="FT" id="ft">
+                <input class="inp_heigh" type="number" placeholder="IN" id="in">
+            </div>
+            <div class="cms">
+                <a href="#">Switch to cm</a>
+            </div>
+
+            <div class="age">
+                <label for="age">AGE</label><br>
+                <input type="number" name="" id="age" placeholder="Years">
+                <!-- <span class="fix-placeholder">Years</span> -->
+            </div>
+
+            <div class="weight">
+                <label for="weight">WEIGHT</label><br>
+                <input type="tel" name="" id="weight" placeholder="in Kgs">
+            </div>     
+            
+            <div class="calc_final">
+                <input id = "calc_but" type="button" value="Calculate">
+            </div>
+
+            <div class="bar">
+                This is the space for bar.
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
