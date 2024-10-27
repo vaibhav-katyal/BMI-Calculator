@@ -534,16 +534,53 @@ footer #sb_btn:hover{
 
 .follow{
     line-height: 1;
-    /* position: relative;
-    top: 1px;
-    right: 1px;
-    bottom: 1px;
-    left: 1px; */
-
     text-align: right;
     margin-left: auto;
-    padding-right: 20px;
+    margin-right: 18.5vw;
+    margin-bottom: 18px;
 }
 
+.svg_size_design{
+    width: 33px;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
 
-    
+#facebook{
+    position: relative;
+    right: 202px;
+}
+#twitter{
+    position: relative;
+    right: 192px;
+    width: 26px;
+    margin-top: 14px;
+}
+
+#instagram{
+    position: relative;
+    right: 178px;
+    width: 29px;
+    margin-top: 14px;
+}
+
+#linkedin{
+    position: relative;
+    right: 166px;
+    width: 32px;
+}
+
+#pinterest{
+    position: relative;
+    right: 157px;
+    width: 32px;
+}
+
+.platforms{
+    position: relative;
+    left: 120px;
+}
+
+.invert-on-hover:hover{
+    transform: scale(1.1);
+}
