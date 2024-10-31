@@ -479,9 +479,9 @@ footer{
     padding-left: 22px;
     margin-top: 60px;
 
-    display: flex;
+    /* display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10px; */
 }
 
 footer h2{
@@ -538,6 +538,10 @@ footer #sb_btn:hover{
     margin-left: auto;
     margin-right: 18.5vw;
     margin-bottom: 18px;
+    width: 278px;
+    position: relative;
+    bottom: 84px;
+    left: 7px;
 }
 
 .svg_size_design{
@@ -583,4 +587,12 @@ footer #sb_btn:hover{
 
 .invert-on-hover:hover{
     transform: scale(1.1);
+}
+
+.copyright{
+    text-align: center;
+    /* border: 2px solid; */
+    margin-top: -41px;
+    padding-bottom: 10px;
+    font-size: 16x;
 }
