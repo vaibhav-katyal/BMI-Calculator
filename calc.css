@@ -128,7 +128,7 @@ body {
     border: 1px solid #ae2b30;
     display: flex;
     flex-flow: wrap;
-    width: 87%;
+    width: 1110px;
     height: 300px;
     margin: 3px auto;
     border-radius: 14px;
@@ -136,6 +136,14 @@ body {
     box-shadow: 0px 3px 6px #00000029;
 }
 
+.parent{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    height: 440px;
+    margin: 0px 30px 0px 30px;
+    width: 95%;
+}
 
 input[type="radio"] {
     display: none;
