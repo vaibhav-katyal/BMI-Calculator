@@ -356,4 +356,60 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
+.calc_cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.calc_cards h2{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    color: #0a0a59;
+    text-align: center;
+    margin-bottom: -9px;
+    margin-top: 9px;
+}
+
+
+.bmi_categories{
+    font-family: "Afacad Flux", sans-serif;
+    padding: 0px 21px;
+}
+
+.calc_cards table{
+    text-align: center ;
+    border-collapse: collapse ;
+    width: 90%;
+}
+
+.calc_cards table th,td{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.calc_cards table td{
+    background-color: #f2f2f2;
+}
+
+#note{
+    padding: 0px 31px;
+    margin-top: 8px;
+    color: #817f7f;
+    line-height: 1.1;
+}
+/* .bmi_children{
+} */
+
+.cards_common{
+    border: 1px solid #ae2b30;
+    border-radius: 6px;
+    width: 430px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:
+    center;
+    align-items: center;
+}
 
