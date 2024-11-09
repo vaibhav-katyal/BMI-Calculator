@@ -115,12 +115,15 @@ body {
 .heading{
     text-align: center;
     /* border: 2px solid; */
+    color: #0a0a59;
+    margin: 0px;
+    padding-top: 0px;
 }
 
 .para{
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 5px;
+    margin-top: -18px;
     /* border: 2px solid; */
 }
 
@@ -129,7 +132,25 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 90%;
-    margin: 1px auto;
+    width: 83%;
+    margin: 40px auto;
     border-radius: 5px;
+}
+
+.importance{
+    /* font-family: "Afacad Flux", sans-serif; */
+    border: 1px solid #ae2b30;
+    background-color: white;
+    width: 83%;
+    padding: 8px 20px;
+    margin: 1px auto;
+}
+
+.importance ul{
+    line-height: 1;
+}
+
+.health_risks{
+    display: flex;
+    
 }
