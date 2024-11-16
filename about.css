@@ -129,6 +129,10 @@ body {
     margin-top: 56px;
 }
 
+.cards a{
+    text-decoration: none;
+}
+
 .card_common {
     border: 1px solid #ae2b30;
     width: 277px;
@@ -150,15 +154,10 @@ body {
 .pfp img {
     border: 1px solid #ae2b30;
     width: 100px;
-    /* Adjust the width */
     height: 100px;
-    /* Adjust the height */
     border-radius: 50%;
-    /* Ensures the image remains circular */
     object-fit: cover;
-    /* Ensures the image scales correctly */
     display: block;
-    /* Ensures no extra space around the image */
     margin: 0 auto;
     object-position: 74% 9%;
     scale: 1.025;
@@ -185,3 +184,5 @@ body {
         color: rgb(59, 55, 55);
     }
 }
+
+
