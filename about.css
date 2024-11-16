@@ -112,7 +112,7 @@ body {
     filter: invert();
 }
 
-.meet{
+.meet {
     font-family: "Afacad Flux", sans-serif;
     text-align: center;
     font-size: 30px;
@@ -120,29 +120,68 @@ body {
     margin-top: 10px;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     gap: 31px;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+    margin-top: 56px;
 }
 
-.card_common{
+.card_common {
     border: 1px solid #ae2b30;
-    width: 250px;
-    height: 300px;
+    width: 277px;
+    height: 339px;
     border-radius: 15px;
     background-color: #f9d3bb;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 3px rgba(127, 95, 130, 0.37);
+    transition: all 0.2s ease;
 }
 
-.pfp{
+.pfp {
     margin: 1px auto;
     /* border: 1px solid; */
     text-align: center;
     padding-top: 26px;
 }
-.pfp img{
+
+.pfp img {
     border: 1px solid #ae2b30;
-    border-radius: 50%;
     width: 100px;
+    /* Adjust the width */
     height: 100px;
+    /* Adjust the height */
+    border-radius: 50%;
+    /* Ensures the image remains circular */
+    object-fit: cover;
+    /* Ensures the image scales correctly */
+    display: block;
+    /* Ensures no extra space around the image */
+    margin: 0 auto;
+    object-position: 74% 9%;
+    scale: 1.025;
+}
+
+.cards-info {
+    text-align: right;
+    font-family: "Afacad Flux", sans-serif;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #605050;
+    padding-right: 25px;
+}
+
+.info-parent {
+    margin-top: 26px;
+}
+
+.card_common:hover {
+    transform: scale(1.1);
+
+    .cards-info {
+        color: rgb(59, 55, 55);
+    }
 }
