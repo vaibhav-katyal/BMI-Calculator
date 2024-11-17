@@ -35,7 +35,9 @@ body {
     right: -120px;
     display: inline-block;
     font-size: 27px;
-    font-family: "Protest Guerrilla", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style:normal;
 
 }
 
@@ -137,6 +139,13 @@ body {
 
 .fitgen {
     font-size: 3rem;
+}
+
+.name{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6 rem;
 }
 
 .content {
