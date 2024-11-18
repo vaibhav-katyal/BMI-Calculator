@@ -9,127 +9,13 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
-.left {
-    /* border: 2px solid red; */
-    display: inline-block;
-    position: absolute;
-    top: -13px;
-    left: 18px;
-}
-
-.left img {
-    position: absolute;
-    top: 6px;
-    left: 8px;
-    width: 113px;
-}
-
-.left div {
-    text-align: center;
-    position: relative;
-    bottom: -39px;
-    right: -120px;
-    display: inline-block;
-    font-size: 27px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 700;
-    font-style:normal;
-}
-
-.left a {
-    color: black;
-    text-decoration: none;
-}
-
-.center {
-    /* border: 2px solid blue; */
-    display: block;
-    width: 43%;
-    margin: 30px auto;
-
-}
-
-.right {
-    /* border: 2px solid yellow; */
-    display: inline-block;
-    position: absolute;
-    top: 24px;
-    right: 20px
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-.navbar li a {
-    color: black;
-    text-decoration: none;
-    padding: 26px;
-    font-weight: 300;
-}
-
-.navbar li a:hover {
-    /* text-decoration-line: underline; */
-    color: #ae2b30;
-    font-weight: 450;
-}
-
-.navbar li a.active {
-    color: #ae2b30;
-    font-weight: 450;
-    text-decoration-line: underline;
-
-}
-
-.btn {
-    color: black;
-    border: none;
-    padding: 6px;
-    cursor: pointer;
-}
-
-#sign {
-    background-color: transparent;
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-}
-
-#sign:hover {
-    color: #ae2b30;
-    font-weight: 500;
-}
-
-.right img {
-    height: 23px;
-    position: relative;
-    left: 8px;
-    top: 7px;
-    cursor: pointer;
-    filter: invert();
-}
-
-.heading {
-    color: #ae2b30;
-    display: flex;
-    font-weight: 600;
-    /* border: 2px solid black; */
-    width: 100%;
-    margin: 0px 10px;
-    position: absolute;
-    left: -12px;
-    top: 120px;
-    font-size: 23px;
-    justify-content: center;
-    font-size: xx-large;
-}
-
 .calculate {
     position: relative;
-    top: 100px;
+    top: 44px;
     border: 1px solid #ae2b30;
     display: flex;
     flex-flow: wrap;
-    width: 1110px;
+    width: 83%;
     height: 300px;
     margin: 3px auto;
     border-radius: 14px;
@@ -153,7 +39,6 @@ input[type="radio"] {
 
 input[type="radio"]:checked+label {
     border-color: #ae2b30;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     font-weight: 500;
 }
 
@@ -198,7 +83,7 @@ input[type="number"] {
     border-bottom: 1px solid grey;
     outline: none;
     width: 100px;
-    font-weight: 550;
+    /* font-weight: 550; */
 }
 
 input[type="number"]:focus {
@@ -267,13 +152,13 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .age {
     position: absolute;
-    left: 33vw;
+    left: 31vw;
     top: 13px;
 }
 
 .weight {
     position: absolute;
-    left: 33vw;
+    left: 31vw;
     top: 113px;
 
 }
@@ -322,13 +207,24 @@ input[type="number"]::-webkit-inner-spin-button {
 #calc_but:focus{
     box-shadow: 0px 0px 4px 1px rgba(237, 231, 225, 0.9 );
 }
+
 .bmi-bar-wrapper {
-    /* border: 1px solid #ae2b30; */
+    border: 1px solid #ae2b30;
     width: 90%;
     margin-top: 90px;
     position: relative;
     left: 433px;
+    background-color: #fdf2ec;
+    padding: 31px;
+    height: 65px;
+    padding-top: 49px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 283px;
+    padding-bottom: 43px;
+    left: 685px
 }
+
 
 .bmi-bar {
     display: flex;
@@ -392,6 +288,7 @@ input[type="number"]::-webkit-inner-spin-button {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    width: 240px;
 }
 
 
@@ -486,5 +383,7 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content:
     center;
     align-items: center;
+    position: relative;
+    bottom: 35px;
 }
 
