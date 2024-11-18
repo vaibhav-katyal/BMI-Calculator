@@ -67,34 +67,33 @@
                 important reasons to use it:</span>
             <div class="cards">
 
-                <a href="">
-                    <div class="pt pt1 active">
-                        <img src="other images/heartbeat.png" alt="WT">
-                        Wellness Tracking
-                    </div>
-                </a>
-                <a href="">
-                    <div class="pt pt2">
-                        <img src="other images/fitness_goals1.png" alt="FG">
-                        Fitness Objectives
-                    </div>
-                </a>
-                <a href="">
-                    <div class="pt pt3">
-                        <img src="other images/weight_management.png" alt="WM">
-                        Weight Management
-                    </div>
-                </a>
-                <a href="">
-                    <div class="pt pt4">
-                        <img src="other images/health.png" alt="HA">
-                        Health Assessment
-                    </div>
-                </a>
+                <div class="pt pt1 active" id="why-heart">
+                    <img src="other images/heartbeat.png" alt="WT">
+                    Wellness Tracking
+                </div>
+
+
+                <div class="pt pt2" id="why-fitness">
+                    <img src="other images/fitness_goals1.png" alt="FG">
+                    Fitness Objectives
+                </div>
+
+
+                <div class="pt pt3" id="why-weight">
+                    <img src="other images/weight_management.png" alt="WM">
+                    Weight Management
+                </div>
+
+
+                <div class="pt pt4" id="why-health">
+                    <img src="other images/health.png" alt="HA">
+                    Health Assessment
+                </div>
+
             </div>
 
             <div class="content-cards">
-                <div class="wellnesstrack">
+                <div class="wellnesstrack wellnesstracking" style="display: none;">
                     <h3>Wellness Tracking</h3>
                     <p>A BMI calculator helps you monitor your health by keeping track of key indicators. It allows you
                         to identify potential health concerns early, giving you the chance to take preventive steps. By
@@ -102,20 +101,20 @@
                         overall well-being.</p>
                 </div>
 
-                <div class="fitnessgoals">
+                <div class="fitnessgoals" style="display: none;">
                     <h3>Fitness Objectives</h3>
                     <p>A BMI calculator serves as a useful tool in supporting your fitness journey. It helps you measure
                         your physical progress with precision. Regularly tracking your BMI ensures that your fitness
                         efforts stay on course and are aligned with your personal objectives.</p>
                 </div>
-                <div class="weightmngmnt">
+                <div class="weightmngmnt" style="display: none;">
                     <h3>Weight Management</h3>
                     <p>A BMI calculator is a great tool for managing weight effectively. It helps you set practical
                         weight targets and guides you toward achieving a healthier body weight. By using it, you can
                         create a manageable weight plan with realistic milestones to reach over time.</p>
                 </div>
-                <div class="healthassm">
-                    <h3>Fitness Objectives</h3>
+                <div class="healthassm" style="display: none;">
+                    <h3>Health Assessment</h3>
                     <p>Understanding your BMI provides key insights into your overall health. An online BMI calculator
                         uses your height and weight to give a fast evaluation of your health status. It points out
                         possible health risks and highlights areas for improvement to enhance your well-being. This
@@ -180,11 +179,16 @@
             <div class="follow">
                 <span>Follow FitGenius on various platforms</span>
                 <div class="platforms">
-                    <a href="https://www.facebook.com"><img src="svgs/facebook.svg" alt="facebook" class="svg_size_design invert-on-hover" id="facebook"></a>
-                    <a href="https://www.twitter.com"><img src="svgs/twitter.svg" alt="twitter" class="svg_size_design invert-on-hover" id="twitter"></a>
-                    <a href="https://www.instagram.com"><img src="svgs/instagram.svg" alt="instagram" class="svg_size_design invert-on-hover" id="instagram"></a>
-                    <a href="https://www.linkedin.com"><img src="svgs/linkedin.svg" alt="linkedin" class="svg_size_design invert-on-hover" id="linkedin"></a>
-                    <a href="https://www.pinterest.com"><img src="svgs/pinterest-logo.svg" alt="pinterest" class="svg_size_design invert-on-hover" id="pinterest"></a>
+                    <a href="https://www.facebook.com"><img src="svgs/facebook.svg" alt="facebook"
+                            class="svg_size_design invert-on-hover" id="facebook"></a>
+                    <a href="https://www.twitter.com"><img src="svgs/twitter.svg" alt="twitter"
+                            class="svg_size_design invert-on-hover" id="twitter"></a>
+                    <a href="https://www.instagram.com"><img src="svgs/instagram.svg" alt="instagram"
+                            class="svg_size_design invert-on-hover" id="instagram"></a>
+                    <a href="https://www.linkedin.com"><img src="svgs/linkedin.svg" alt="linkedin"
+                            class="svg_size_design invert-on-hover" id="linkedin"></a>
+                    <a href="https://www.pinterest.com"><img src="svgs/pinterest-logo.svg" alt="pinterest"
+                            class="svg_size_design invert-on-hover" id="pinterest"></a>
                 </div>
             </div>
 
@@ -194,6 +198,8 @@
         </footer>
 
     </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
