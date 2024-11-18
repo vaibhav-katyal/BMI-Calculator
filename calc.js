@@ -44,9 +44,12 @@ document.getElementById('calc_but').addEventListener('click', () => {
     }
 });
 
+// Update BMI bar based on BMI value
 function updateBMIBar(bmi) {
     const bmiIndicator = document.getElementById('bmi-indicator');
     const bmiResult = document.getElementById('bmi-result');
+    const bmiBar = document.querySelector('.bmi-bar'); // Get the bar to calculate its width
+    const barWidth = bmiBar.offsetWidth; // Dynamically calculate bar width
     const bmiRanges = {
         underweight: 18.5,
         healthy: 24.9,
@@ -54,9 +57,10 @@ function updateBMIBar(bmi) {
         obese: 40
     };
 
-    // Map BMI to bar position
-    const position = ((bmi - 10) / (40 - 10)) * 100; // Normalize to 10-40 range
-    bmiIndicator.style.left = `${position}%`;
+    // Normalize BMI to bar width (range: 10–40)
+    const normalizedBMI = Math.max(10, Math.min(40, bmi)); // Clamp BMI between 10 and 40
+    const position = ((normalizedBMI - 10) / (40 - 10)) * barWidth; // Map BMI to bar width
+    bmiIndicator.style.left = `${position}px`;
 
     // Determine category and update text
     let category = '';
