@@ -1,16 +1,14 @@
 body {
-    /* color: white; */
     margin: 0;
     padding: 0;
     background: url("https://www.iciciprulife.com/content/icici-prudential-life-insurance/testing/tools-and-calculators/bmi_assets/images/calcBG.svg") repeat-y;
-
     background-size: cover;
-    /* background-color: beige; */
-    /* background-color: rgb(245, 233, 219); */
     font-family: "Baloo Bhaijaan 2", sans-serif;
-    /* display: flex;
-    flex-direction: column; */
     box-sizing: border-box;
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .left {
@@ -37,7 +35,7 @@ body {
     font-size: 27px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
-    font-style:normal;
+    font-style: normal;
 
 }
 
@@ -141,7 +139,7 @@ body {
     font-size: 3rem;
 }
 
-.name{
+.name {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -258,7 +256,7 @@ body {
     transform: scale(1.03);
 }
 
-.pt1{
+.pt1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,13 +264,13 @@ body {
     line-height: 2.2;
 }
 
-.pt1 img{
+.pt1 img {
     width: 46px;
     margin-top: 19px;
     margin-bottom: 2px;
 }
 
-.pt2{
+.pt2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -280,12 +278,12 @@ body {
     line-height: 2.2;
 }
 
-.pt2 img{
+.pt2 img {
     width: 45px;
     margin-top: 19px;
 }
 
-.pt3{
+.pt3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -293,12 +291,12 @@ body {
     line-height: 2;
 }
 
-.pt3 img{
+.pt3 img {
     width: 38px;
     margin-top: 18px;
 }
 
-.pt4{
+.pt4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,26 +304,26 @@ body {
     line-height: 2.2;
 }
 
-.pt4 img{
+.pt4 img {
     width: 53px;
     margin-top: 21px;
 }
 
-.cards a{
+.cards a {
     text-decoration: none;
     color: black;
 }
 
-.cards .active{
+.cards .active {
     background-color: #f9d3bb;
     transform: scale(1.03);
 }
 
-.content-cards{
+.content-cards {
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
     display: flex;
-    background-color:#f9d3bb ;
+    background-color: #f9d3bb;
     text-align: left;
     width: 63%;
     padding-top: 15px;
@@ -340,28 +338,30 @@ body {
     border-radius: 4px;
 }
 
-:root{
+:root {
     --border_og: 1px solid rgba(127, 95, 130, 0.37);
     --box-shadow_og: 0px 0px 3px 0px rgba(127, 95, 130, 0.37);
     --border-rad_og: 4px;
     --bg-color: rgba(128, 128, 128, 0.1)
 }
 
-.content-cards h3{
+.content-cards h3 {
     color: #ae2b30;
 }
 
-.fitnessgoals{
-    display: none;
-}
-.weightmngmnt{
-    display: none;
-}
-.healthassm{
+.fitnessgoals {
     display: none;
 }
 
-.howtocalc{
+.weightmngmnt {
+    display: none;
+}
+
+.healthassm {
+    display: none;
+}
+
+.howtocalc {
     display: flex;
     flex-direction: column;
     border: 1px solid #ae2b30;
@@ -376,26 +376,26 @@ body {
     margin-bottom: 5px;
 }
 
-.howtocalc h2{
+.howtocalc h2 {
     margin: 0;
     padding: 0;
     color: #0a0a59;
 }
 
-.formula{
-    
+.formula {
+
     font-family: "Afacad Flux", sans-serif;
-    background-color:#f9d3bb ;
+    background-color: #f9d3bb;
     padding: 10px 14px 10px 14px;
     border: var(--border_og);
     border-radius: var(--border-rad_og);
     /* box-shadow: var(--box-shadow_og); */
-    
+
 }
 
-.steps{
+.steps {
     font-family: "Afacad Flux", sans-serif;
-    background-color: rgba(128, 128, 128, 0.1) ;
+    background-color: rgba(128, 128, 128, 0.1);
     display: flex;
     flex-direction: column;
     width: 83%;
@@ -405,14 +405,14 @@ body {
     align-items: center;
     padding-right: 7px;
     border-radius: var(--border-rad_og);
-    
+
 }
 
-.steps ol{
+.steps ol {
     margin-top: 0px;
 }
 
-.parent a{
+.parent a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -425,7 +425,7 @@ body {
 
 }
 
-.systemofunits{
+.systemofunits {
     display: flex;
     flex-direction: column;
     border: 1px solid #ae2b30;
@@ -440,29 +440,31 @@ body {
     padding-bottom: 7px;
 }
 
-#sou2{
+#sou2 {
     margin-top: 10px;
 }
-#sou1{
+
+#sou1 {
     margin-bottom: 14px;
 }
 
-.parent{
+.parent {
     display: flex;
     gap: 0px;
-    justify-content: center;   /* Align items from the start */
+    justify-content: center;
+    /* Align items from the start */
     align-items: center;
     /* flex-wrap: wrap; */
 }
 
-.si{
+.si {
     display: flex;
     flex-direction: column;
-    margin-right: 16.3vw ;
+    margin-right: 16.3vw;
     margin-bottom: 8px;
 }
 
-.example{
+.example {
     text-align: center;
     background-color: rgba(128, 128, 128, 0.1);
     padding: 6px 11px 6px 11px;
@@ -470,8 +472,8 @@ body {
     margin-bottom: 8px;
     border-radius: var(--border-rad_og);
 }
-    
-.systemofunits h4{
+
+.systemofunits h4 {
     font-family: "Afacad Flux", sans-serif;
     font-size: 18px;
     margin: 11px;
