@@ -74,3 +74,108 @@ body {
     width: 38%;
     border-radius: 5px;
 }
+
+.introtobmi {
+    animation-name: intro-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes intro-anim {
+    from{
+        position: relative;
+        opacity: 0;
+    }
+
+    to{
+        position: relative;
+        opacity: 1;
+    }
+}
+
+.heading{
+    animation-name: heading-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes heading-anim {
+    from{
+        position: relative;
+        bottom: 30px;
+        opacity: 0;
+    }
+
+    to{
+        position: relative;
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+.importance {
+    animation-name: health-risk-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes health-risk-anim {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.overweight{
+    animation-name: overweight-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes overweight-anim {
+    from{
+        position: relative;
+        right: 125px;
+        opacity: 0;
+    }
+
+    to{
+        position: relative;
+        opacity: 1;
+        right: 0px;
+    }
+}
+
+.underweight{
+    animation-name: underweight-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes underweight-anim {
+    from{
+        position: relative;
+        right: -50px;
+        opacity: 0;
+    }
+
+    to{
+        position: relative;
+        opacity: 1;
+        right: 0px;
+    }
+}
+
