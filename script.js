@@ -1,4 +1,5 @@
 // Select all cards and their corresponding content sections
+
 const cards = document.querySelectorAll('.pt');
 const contents = {
     'why-heart': document.querySelector('.wellnesstracking'),
