@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
     signUpForm.addEventListener('submit', function(event) {
       event.preventDefault();
-      // Here you would typically handle the form submission,
-      // such as sending the data to a server
       alert('Sign up successful!');
       signUpPopup.style.display = 'none';
     });
