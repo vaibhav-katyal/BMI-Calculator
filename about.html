@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="shortcut icon" href="other images/images-removebg-preview.png" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
@@ -40,6 +41,19 @@
         <img src="other images/account_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="user">
         <button class="btn" id="sign">Sign Up</button>
     </div>
+    <div id="signUpPopup" class="popup">
+        <div class="popup-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signUpForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button type="submit" class="submit-btn">Sign Up</button>
+          </form>
+        </div>
+      </div>
     </header>
 
     <div class="meet">
@@ -61,7 +75,7 @@
     </a>
         <a href="https://www.linkedin.com/in/manu-sharma-866372318/" target="_blank"><div class="card-2 card_common">
             <div class="pfp">
-                <img src="team pfps/sample man.jpg" alt="Team-member 2">
+                <img src="team pfps/manu.jpg" alt="Team-member 2">
                 <div class="info-parent">
 
                     <span class="cards-info">Manu Sharma</span>
@@ -110,7 +124,7 @@
             <span>&copy; Copyright FitGenius. All Rights Reserved.</span>
         </div>
     </footer>
-
+    <script src="signup.js"></script>
 </body>
 
 </html>

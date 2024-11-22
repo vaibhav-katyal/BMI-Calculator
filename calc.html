@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="calc.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="signup.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
@@ -40,6 +41,19 @@
         <img src="other images/account_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="user">
         <button class="btn" id="sign">Sign Up</button>
     </div>
+    <div id="signUpPopup" class="popup">
+        <div class="popup-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signUpForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button type="submit" class="submit-btn">Sign Up</button>
+          </form>
+        </div>
+      </div>
     </header>
     <div class="parent">
         <div class="calculate">
@@ -164,6 +178,7 @@
         </div>
     </footer>
     <script src="calc.js"></script>
+    <script src="signup.js"></script>
 </body>
 
 </html>

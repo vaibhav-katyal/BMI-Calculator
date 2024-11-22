@@ -58,6 +58,10 @@ body {
     flex-wrap: wrap;
 }
 
+.common img{
+    width: 100px;
+}
+
 .health_risks h2{
     margin-top: 8px;
 
