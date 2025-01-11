@@ -1,3 +1,5 @@
+/* Your existing CSS code */
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+
+/* Your other existing styles */
 
 .left {
     /* border: 2px solid red; */
@@ -135,4 +139,145 @@ body {
     top: 7px;
     cursor: pointer;
     filter: invert();
+}
+
+/* Updated and new styles for responsiveness */
+header {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .center {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: white;
+        margin: 0;
+        padding: 80px 0;
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .center.active {
+        right: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .navbar li a {
+        padding: 10px 20px;
+        display: block;
+    }
+
+    .right {
+        position: static;
+        margin-right: 50px;
+        margin-left: auto;
+    }
+
+    .left {
+        position: static;
+        display: flex;
+        align-items: center;
+    }
+
+    .left img {
+        position: static;
+        width: 80px;
+    }
+
+    .left div {
+        font-size: 20px;
+        position: static;
+        margin-left: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .welcome_main, .whyuse, .parent {
+        margin-top: 20px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pt {
+        margin: 10px;
+    }
+
+    .si {
+        flex-direction: column;
+    }
+
+    .systemofunits {
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot_left, .follow {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Animation for hamburger menu */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
 }
